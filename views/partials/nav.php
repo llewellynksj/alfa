@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" class="h-full bg-gray-100">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Tailwind -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <title>Alfa</title>
-
-</head>
-
-<body class="h-full">
-
-<div class="min-h-full">
-  <div class="bg-gray-800 pb-32">
-    <nav class="bg-gray-800">
+<nav class="bg-gray-800">
       <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="border-b border-gray-700">
           <div class="flex h-16 items-center justify-between px-4 sm:px-0">
@@ -126,25 +109,3 @@
         </div>
       </div>
     </nav>
-    <header class="py-10">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold tracking-tight text-white">ALFA</h1>
-      </div>
-    </header>
-  </div>
-
-  <main class="-mt-32">
-    <div class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
-      <div class="rounded-lg bg-white px-5 py-6 shadow sm:px-6">
-        <h2>ALFA</h2>
-        <p>Bricklaying Services</p>
-      </div>
-    </div>
-  </main>
-</div>
-
-
-
-
-</body>
-</html>
