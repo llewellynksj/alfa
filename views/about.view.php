@@ -2,12 +2,7 @@
 
 <?php require "partials/nav.php"; ?>
 
-<header class="py-10">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <h1 class="text-3xl font-bold tracking-tight text-white">About</h1>
-  </div>
-</header>
-</div>
+<?php require "partials/banner.php"; ?>
 
 <main class="-mt-32">
 <div class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
