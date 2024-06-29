@@ -1,13 +1,20 @@
 <nav class="bg-gray-800">
       <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="border-b border-gray-700">
+        <div class="border-gray-700">
+
           <div class="flex h-16 items-center justify-between px-4 sm:px-0">
+
             <div class="flex items-center">
-              <div class="flex-shrink-0">
-                <img class="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+
+              <div class="">
+                <img class="h-28 w-28 rounded-full" src="assets/alfa_logo.webp" alt="Your Company">
               </div>
-              <div class="hidden md:block">
-                <div class="ml-10 flex items-baseline space-x-4">
+
+              <div class="flex-column">
+                <div class="ml-10 pb-4 flex items-top">
+                  <p class="text-white"><em>ALFA Bricklaying Services</em></p>
+                </div>
+                <div class="ml-10 flex items-baseline space-x-4 hidden md:block">
                   <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                   <a href="/" class="<?= uriIs('/') ?> rounded-md  px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
                   <a href="/about" class="<?= uriIs('/about') ?> rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white">About</a>
@@ -15,6 +22,7 @@
                   <a href="/contact" class="<?= uriIs('/contact') ?> rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white">Contact</a>
                 </div>
               </div>
+              
             </div>
             
             <div class="-mr-2 flex md:hidden">

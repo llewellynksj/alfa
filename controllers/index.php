@@ -1,6 +1,6 @@
 <?php
 
-$bannerName = "ALFA";
+$bannerName = "Welcome";
 
 
 require "views/index.view.php";
