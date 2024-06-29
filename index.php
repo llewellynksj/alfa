@@ -2,7 +2,18 @@
 
 require 'functions.php';
 
-$bannerName = "ALFA";
+$uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
+$routes = [
+  '/' => 'controllers/index.php',
+  '/services' => 'controllers/services.php',
+  '/about' => 'controllers/about.php',
+  '/contact' => 'controllers/contact.php',
+];
 
-require "views/index.view.php";
+if (array_key_exists($uri, $routes)) {
+  require $routes[$uri];
+} else {
+  http_response_code(404);
+  require 'views/404.php';
+}
