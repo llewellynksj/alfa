@@ -10,9 +10,9 @@
                 <div class="ml-10 flex items-baseline space-x-4">
                   <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                   <a href="/" class="<?= uriIs('/') ?> rounded-md  px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
-                  <a href="/about.php" class="<?= uriIs('/about.php') ?> rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white">About</a>
-                  <a href="/services.php" class="<?= uriIs('/services.php') ?> rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white">Services</a>
-                  <a href="/contact.php" class="<?= uriIs('/contact.php') ?> rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white">Contact</a>
+                  <a href="/about" class="<?= uriIs('/about') ?> rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white">About</a>
+                  <a href="/services" class="<?= uriIs('/services') ?> rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white">Services</a>
+                  <a href="/contact" class="<?= uriIs('/contact') ?> rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white">Contact</a>
                 </div>
               </div>
             </div>
