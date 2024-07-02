@@ -12,7 +12,7 @@
 
               <div class="flex-column">
                 <div class="ml-10 pb-4 flex items-top">
-                  <p class="text-white"><em>ALFA Bricklaying Services</em></p>
+                  <p class="text-white px-3"><em>ALFA Bricklaying Services</em></p>
                 </div>
                 <div class="ml-10 flex items-baseline space-x-4 hidden md:block">
                   <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
