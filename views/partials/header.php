@@ -14,5 +14,5 @@
 <body class="h-full">
 
 <div class="min-h-full">
-  <div class="bg-gray-800 pb-32 pt-12">
+  <div class="bg-cyan-600 pb-32 pt-12">
     
